@@ -10,9 +10,11 @@ Por Milton Duarte (adicionar HOVER)
 https://www.youtube.com/watch?v=ePPNliWMnoM&ab_channel=MDTVSTUDIO
 
 
-cor00: #FFFAEE
-cor01: #E3B039
-cor02: #3B2E12
+cor01: #FFFAEE;
+cor02: #CCC8BE;
+cor03: #807D77;
+cor04: #807150;
+cor05: #FFE3A1;
 Estou ficando cansado
 Da tal tecnologia
 Só se fala por e-mail
