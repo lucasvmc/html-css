@@ -82,8 +82,9 @@ header > p > a:hover{
 
 nav{
     background-color: var(--cor04);
-    height: 20px;
-    padding: 15px;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
     font-family: var(--fonte-titulo);
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
     margin-bottom: 30px;
@@ -93,7 +94,7 @@ nav > a{
     color: white;
     text-decoration: none;
     padding: 10px;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 nav > a:hover{
@@ -242,9 +243,9 @@ div#yt > iframe{
 }
 
 #contatos > a > img:hover{
-    height: 28px;
-    width: 28px;
-    padding: 0px;
+    height: 38px;
+    width: 38px;
+    padding: 20px;
     box-shadow: 0px 0px 5px var(--cor04);
     border-radius: 100%;
     transition-duration: 0.3s;
