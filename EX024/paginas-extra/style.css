@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+
+.degrade{
+    width: 100%;
+    padding: 300px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to left, #0F7500, #5DBF4E, #76F263, #B7F4AE);
+    background-size: 500% 100%;
+    animation: live-degrade 5s infinite alternate;
+}
+
+@keyframes live-degrade {
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+    }
+}
+
