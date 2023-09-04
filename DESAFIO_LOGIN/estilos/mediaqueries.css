@@ -15,6 +15,7 @@ Verde 5: #DAF2C2
     
     section#login{
         width: 80vw;
+        height: 280px;
     }
 
     section#login > div#imagem{
@@ -32,6 +33,7 @@ Verde 5: #DAF2C2
 @media screen and (min-width: 992px){
     section#login{
         width: 950px;
+        height: 350px;
     }
 
     section#login > div#imagem{
@@ -50,6 +52,7 @@ Verde 5: #DAF2C2
     }
 
     div#formulario > p{
-        font-size: 1.2em;
+        font-size: 1em;
+        margin: 20px 0px;
     }
 }
