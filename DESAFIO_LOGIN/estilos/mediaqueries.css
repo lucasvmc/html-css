@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+/* PALETA DE CORES
+Verde 1: #01261C
+Verde 2: #025939
+Verde 3: #02733E
+Verde 4: #B7D996
+Verde 5: #DAF2C2
+*/
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        background-image: linear-gradient(to bottom, #01261c, #025939, #02733e);
+    }
+    
+    section#login{
+        width: 80vw;
+    }
+
+    section#login > div#imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    section#login > div#formulario{
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px){
+    section#login{
+        width: 950px;
+    }
+
+    section#login > div#imagem{
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login > div#formulario{
+        float: right;
+        width: 50%;
+    }
+
+    div#formulario > h1{
+        font-size: 2em;
+    }
+
+    div#formulario > p{
+        font-size: 1.2em;
+    }
+}
