@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+div, a, span{
+    outline: 1px solid red;
+}
+
+section{
+    display: grid;
+}
