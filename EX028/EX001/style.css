@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+
+body{
+    margin: 0;
+    display: grid;
+    height: 100vh;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 20% 1fr 10% ;
+}
+
+header{
+    background-color: aqua;
+}
+
+main{
+    background-color: blueviolet;
+}
+
+aside{
+    background-color: palevioletred;
+}
+
+footer{
+    background-color: chartreuse;
+}
