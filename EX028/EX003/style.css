@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body{
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}
+
+#app{
+    outline: 1px solid red;
+    height: 40vh;
+    width: 50vw;
+
+    display: grid;
+    place-content: center;
+}

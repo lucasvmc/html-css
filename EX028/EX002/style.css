@@ -9,27 +9,12 @@ section{
     width: 100vw;
 
     grid-template-columns: repeat(3, 1fr);
-
+    grid-template-rows: repeat(3, 50px);
     gap: 5px;
+
+    align-content: space-evenly;
 }
 
 div{
     background-color: purple;
-    width: 100px;
-    height: 100px;
-}
-
-div:nth-child(1){
-    align-self: end;
-    background-color: green;
-}
-
-div:nth-child(2){
-    justify-self: end;
-    background-color: red;
-}
-
-div:nth-child(3){
-    place-self: center;
-    background-color: blue;
 }
