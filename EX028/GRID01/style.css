@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    display: grid;
+    height: 100vh;
+    color: white;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(1fr)
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5px;
+
+    grid-template-areas: 
+    'cabeca cabeca cabeca'
+    'corpo corpo corpo'
+    'corpo corpo corpo'
+    'corpo corpo corpo'
+    'corpo corpo corpo'
+    ;
+}
+
+header{
+    background-color: green;
+    grid-column: ;
+    grid-area: cabeca;
+}
+
+.grid1{
+    background-color: black;
+    grid-column: 1/2;
+    grid-area: corpo;
+}
+
+.grid2{
+    background-color: darkgray;
+}
+
+.grid3{
+    background-color: brown;
+}
+
+.grid4{
+    background-color: aqua;
+}
+
+.grid5{
+    background-color: darkred
+}
+
+.grid6{
+    background-color: bisque;
+}
+
+.grid7{
+    background-color: darkblue;
+}
+
+.grid8{
+    background-color: chartreuse;
+}
